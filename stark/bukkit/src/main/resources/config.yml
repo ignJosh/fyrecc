@@ -1,0 +1,18 @@
+Mongo:
+  Host: "127.0.0.1"
+  Port: 27017
+  Username: "admin"
+  Password: ""
+LocalRedis:
+  Host: 'localhost'
+  Port: 6379
+  Password: ''
+  DbId: 1
+BackboneRedis:
+  Host: 'localhost'
+  Port: 6379
+  Password: ''
+  DbId: 0
+TimeZone: "EST"
+RebootTimes:
+  - 24

@@ -1,0 +1,23 @@
+package net.evilblock.stark.profile
+
+import net.evilblock.stark.Stark
+import net.evilblock.stark.core.profile.Profile
+import java.util.*
+
+class ProxyProfile(uuid: UUID) : Profile(uuid) {
+
+    override fun apply() {
+        val player = Stark.instance.proxy.getPlayer(uuid)
+
+        if (player != null) {
+            getCompoundedPermissions().forEach {
+                if (it.startsWith("-")) {
+                    player.setPermission(it.substring(1), false)
+                } else {
+                    player.setPermission(it, true)
+                }
+            }
+        }
+    }
+
+}

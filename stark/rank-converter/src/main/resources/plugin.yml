@@ -1,0 +1,8 @@
+name: StarkRanksConverter
+version: 1.0
+author: joeleoli
+main: net.evilblock.stark.rankconverter.StarkRankConverter
+depend:
+  - Stark
+softdepend:
+  - LuckPerms

@@ -1,0 +1,9 @@
+{
+  "reboot": {
+    "broadcast-lines": [
+      "",
+      "&c&l⚠ &eServer rebooting in {remainingTime}!",
+      ""
+    ]
+  }
+}

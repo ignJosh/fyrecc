@@ -1,0 +1,9 @@
+name: Stark
+version: ${bukkit.desc}
+author: joeleoli
+main: net.evilblock.stark.Stark
+depend:
+  - ProtocolLib
+softdepend:
+  - Vault
+load: STARTUP
