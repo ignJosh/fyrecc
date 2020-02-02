@@ -1,0 +1,6 @@
+name: Hub
+version: ${project.version}
+description: Hub plugin
+author: joeleoli
+main: cc.fyre.hub.Hub
+depend: [Stark]
